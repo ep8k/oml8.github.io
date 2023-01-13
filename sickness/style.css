@@ -1,5 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
       
 body {
-  font-family: "Ubuntu Mono";
+      font-family: "Ubuntu Mono";
+}
+
+.centerVirus {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);    
+}
+
+.virus {
+      transition-duration: 0.25s;
+}
+
+.virus:hover {
+      transform: scale(1.1);
+}
+
+.virus:active {
+      transform: scale(0.93);
 }
