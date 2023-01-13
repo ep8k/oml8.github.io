@@ -10,7 +10,11 @@ function virusClicked() {
 
 
 setInterval(function() {
+  if (localStorage.income) {
   var tempPs = Number(localStorage.income);
   localStorage.points = Number(localStorage.points) + (tempPS / 50);
+  } else {
+    localStorage.income = 1;
+  }
   document.getElementById("points").innerHTML = Math.round(localStorage.points);
 }, 20}
