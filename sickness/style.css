@@ -26,24 +26,3 @@ body {
 .virus:active {
       transform: scale(0.93);
 }
-
-.bContainer {
-      overflow: hidden;
-      z-index: -30000;
-}
-
-.bcImage {
-      background: url("./back.png") repeat-x;
-      height: 750px;
-      width: 7680px;
-      animation: slide 15s linear infinite;
-}
-
-@keyframes slide {
-      0% {
-            transform: translate(0);
-      }
-      100% {
-            transform: translate(-3840px); /* The image width */
-      }
-}
