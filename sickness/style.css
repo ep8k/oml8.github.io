@@ -4,6 +4,7 @@ body {
       font-family: "Ubuntu Mono";
       color: white;
       background: #004040;
+      user-select: none;
 }
 
 .centerVirus {
