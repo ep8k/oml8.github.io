@@ -15,6 +15,7 @@ body {
 
 .virus {
       transition-duration: 0.25s;
+      cursor: pointer;
 }
 
 .virus:hover {
