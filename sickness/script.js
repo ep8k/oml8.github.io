@@ -1,3 +1,5 @@
+var rotation = 0;
+
 function virusClicked() {
   if (localStorage.points) {
     localStorage.points = Number(localStorage.points) + 1;
@@ -16,5 +18,7 @@ setInterval(function() {
   } else {
     localStorage.income = 1;
   }
+  rotation = rotation + 0.3;
+  document.getElementById("virusImage").style.transform = "rotate(rotation)";
   document.getElementById("points").innerHTML = Math.round(localStorage.points);
 }, 20}
