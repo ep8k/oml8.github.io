@@ -29,6 +29,7 @@ body {
 
 .bContainer {
       overflow: hidden;
+      z-index: -30000;
 }
 
 .bcImage {
