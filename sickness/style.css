@@ -33,9 +33,9 @@ body {
 
 .bcImage {
       background: url("./back.png") repeat-x;
-      height: 750px;
-      width: 7680px;
-      animation: slide 3s linear infinite;
+      height: 100vh;
+      width: auto;
+      animation: slide 15s linear infinite;
 }
 
 @keyframes slide {
