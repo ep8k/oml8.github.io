@@ -2,16 +2,12 @@
 <html>
   <head>
     <title>Sickness</title>
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-      
-      body {
-        font-family: "Ubuntu Mono";
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" src="./styles.css">
   </head>
   <body>
     <h1>Sickness Points: <span id="points">0</span></h1>
-    <img src="./Virus-icon.png" />
+    <div class="center">
+      <img src="./Virus-icon.png" class="virus" onmousedown="virusClicked()" />
+    </div>
   </body>
 </html>
