@@ -34,8 +34,8 @@ body {
 
 .bcImage {
       background: url("./back.png") repeat-x;
-      height: 100vh;
-      width: auto;
+      height: 750px;
+      width: 7680px;
       animation: slide 15s linear infinite;
 }
 
